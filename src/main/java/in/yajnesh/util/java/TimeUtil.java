@@ -32,7 +32,10 @@ public class TimeUtil {
      * Get two digit value from input value
      *
      * @param value value
-     * @return 1) 2 -> 02 <br/>2) 20 -> 20
+     * @return <pre>
+     *     {@code
+     *     1) 2 -> 02
+     *     2) 20 -> 20} </pre>
      */
     public static String getTwoDigitValue(long value) {
         StringBuilder result = new StringBuilder();

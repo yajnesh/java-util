@@ -422,7 +422,7 @@ public class JUtil {
      *
      * @param a first string
      * @param b second string
-     * @return 1) false, if either is null <br/>2) false, if both are null <br/>3) false, if string do not match <br/>4) true, otherwise
+     * @return 1) false, if either is null <br>2) false, if both are null <br>3) false, if string do not match <br>4) true, otherwise
      */
     public static boolean equals(Object a, Object b) {
         //noinspection SimplifiableIfStatement
@@ -437,7 +437,7 @@ public class JUtil {
      *
      * @param a first string
      * @param b second string
-     * @return 1) false, if either is null <br/>2) false, if both are null <br/>3) false, if string do not match <br/>4) true, otherwise
+     * @return 1) false, if either is null <br>2) false, if both are null <br>3) false, if string do not match <br>4) true, otherwise
      */
     public static boolean equalsRelaxed(Object a, Object b) {
         String as = getString(a);
@@ -593,9 +593,9 @@ public class JUtil {
     }
 
     /**
-     * Is any object passed is null or empty.<br/>
+     * Is any object passed is null or empty.<br>
      * <p>
-     * Usage: <code>isAnyEmpty(string1,string2,string3,string4)</code><br/>
+     * Usage: <code>isAnyEmpty(string1,string2,string3,string4)</code><br>
      * Usage: <code>isAnyEmpty(collection,map,string,charSequence,object)</code>
      * </p>
      *
@@ -634,9 +634,9 @@ public class JUtil {
     }
 
     /**
-     * Are all the object passed is null or empty.<br/>
+     * Are all the object passed is null or empty.<br>
      * <p>
-     * Usage: <code>isAnyEmpty(string1,string2,string3,string4)</code><br/>
+     * Usage: <code>isAnyEmpty(string1,string2,string3,string4)</code><br>
      * Usage: <code>isAnyEmpty(collection,map,string,charSequence,object)</code>
      * </p>
      *
@@ -723,7 +723,7 @@ public class JUtil {
     }
 
     /**
-     * Safe url encode. <br/>
+     * Safe url encode. <br>
      * Translates a string into {@code x-www-form-urlencoded}
      * format.
      *

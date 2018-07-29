@@ -28,6 +28,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="javautil.javautil-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="javautil.javautil-1.0.0-javadoc" level="project" />
+    <orderEntry type="library" exported="" name="javautil.javautil-1.0.0-sources" level="project" />
     <orderEntry type="library" exported="" name="javautil.javautil-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="javautil.javautil-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="javautil.javautil-1.0.0" level="project" />

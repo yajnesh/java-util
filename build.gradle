@@ -1,4 +1,5 @@
 apply plugin: 'java-library'
+//apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -9,3 +10,31 @@ targetCompatibility = "1.7"
 
 
 version "1.0.0"
+
+ext {
+    bintrayRepo = 'java-util'
+    bintrayName = 'java-util'
+
+    publishedGroupId = 'in.yajnesh.util'
+    libraryName = 'java-util'
+    artifact = 'java-util'
+
+    libraryDescription = 'Most used short code snippets generically designed'
+
+    siteUrl = 'https://github.com/yajnesh/java-util'
+    gitUrl = 'https://github.com/yajnesh/java-util.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'yajnesh'
+    developerName = 'Yajnesh T'
+    developerEmail = 'yajnesh.t@gmail.com'
+
+    licenseName = 'GNU Public Licence, Version 2.0'
+    licenseUrl = 'https://www.gnu.org/licenses/'
+    allLicenses = ["GPL-3.0"]
+}
+
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
